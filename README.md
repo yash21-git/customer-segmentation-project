@@ -116,5 +116,22 @@ Some households are digitally disconnected but depend on subsidies.
 Others are tech-savvy, self-reliant, and need fewer government benefits.
 This kind of insight can guide targeted interventions, saving money and improving impact.
 
+**Role of Machine Learning & Generative AI**
+This project leverages both Machine Learning (ML) and Generative AI (GenAI) to draw meaningful insights from HCES 2023–24 microdata:
+
+Machine Learning for Segmentation
+Applied K-Means Clustering to group Indian households into 4 distinct segments based on key dimensions: digital adoption, asset ownership, subsidy dependence, and vulnerability score.
+Engineered features using 100+ raw variables to build interpretable indices.
+Used ANOVA and t-tests to validate statistical differences between the clusters, ensuring reliable insights.
+
+Generative AI for Interpretation
+Used GenAI (ChatGPT) to interpret and summarize technical results in human-readable narratives.
+Made it easier to describe each household group clearly and communicate insights with non-technical stakeholders.
+
+Why It Matters
+Combining ML’s ability to detect patterns with GenAI’s storytelling capabilities, this project delivers:
+Actionable, data-driven segmentation
+Easy-to-understand summaries for decision-making
+A template for combining advanced analytics with explainability
 
 
